@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap');
+
+@font-face {
+    font-family: 'small-text';
+    src: url('../../assets/fonts/IvyMode-Regular.ttf');
+  }
+
+  
+
+.Galery{
+    background-color: #ebeae1;
+    margin-top: 5rem;
+
+    font-family: 'small-text';
+    height: fit-content;
+
+    .head-work{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3vw;
+        font-size: 1.7vw;
+    }
+    .wrap-all-img{
+       position: absolute;
+       left: 3%;
+       right: 3%;
+        justify-content: center;
+        
+        
+        .work{
+            width: 100%;
+            height: 22vw;
+            background-color: black;
+            .work-text{
+                position: relative;
+                display: flex;
+                justify-content: center; 
+                flex-direction: column;
+                place-items: center;
+                font-size: 1.5vw;
+
+                h1{
+                    margin-top: 5vw;
+                    color: #ebeae1;
+                    margin-bottom: 5px;
+                    
+                }
+                span{
+                    color: red;
+                    font-family: 'IBM Plex Sans', sans-serif;
+                    font-size: 1vw;
+
+                }
+            }
+            .img{
+                position: relative;
+                background-color: rgb(255, 255, 255);
+                width: 25%;
+                height: 33vw;
+                margin-top: 5vw;
+                
+            }
+
+            .work-attribute{
+                position: absolute;
+                bottom: 3vw;
+                left: 3vw;
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 0.9vw;
+                display: flex;
+                color: white;
+                text-transform : capitalize;
+                
+                p{
+                    border: 1px solid white;
+                    padding: 0.5vw 0.6vw;
+                    border-radius: 20px;
+                    margin-bottom: 0;
+                    
+                }
+            }
+            
+        }
+
+         .work{
+            width: 100%;
+            height: 66vw;
+            background-color: black;
+            position: relative;
+            .work-text{
+                position: relative;
+                display: flex;
+                justify-content: center; 
+                flex-direction: column;
+                place-items: center;
+                font-size: 1.5vw;
+
+                h1{
+                    margin-top: 5vw;
+                    color: #ebeae1;
+                    margin-bottom: 5px;
+                    
+                }
+                span{
+                    color: red;
+                    font-family: 'IBM Plex Sans', sans-serif;
+                    font-size: 1vw;
+
+                }
+            }
+            .img{
+                position: relative;
+                background-color: rgb(255, 255, 255);
+                width: 25%;
+                height: 33vw;
+                margin-top: 5vw;
+                
+            }
+
+            .work-attribute{
+                position: absolute;
+                bottom: 3vw;
+                left: 3vw;
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 0.9vw;
+                display: flex;
+                color: white;
+                text-transform : capitalize;
+                
+                p{
+                    border: 1px solid white;
+                    padding: 0.5vw 0.6vw;
+                    border-radius: 20px;
+                    margin-bottom: 0;
+                    
+                }
+            }
+            
+        }
+
+        .work-row{
+            width: 100%;
+            height: 66vw;
+            display: flex;
+            justify-content: row;
+            justify-content: space-between;
+            margin-bottom: 2vw;
+            .work-section{
+                height: 100%;
+                width: 49%;
+                margin-top: 2vw;
+                background-color: black;
+                position: relative;
+                .work-text{
+                    position: relative;
+                    display: flex;
+                    justify-content: center; 
+                    flex-direction: column;
+                    place-items: center;
+                    font-size: 1.5vw;
+    
+                    h1{
+                        margin-top: 5vw;
+                        color: #ebeae1;
+                        margin-bottom: 5px;
+                        
+                    }
+                    span{
+                        color: red;
+                        font-family: 'IBM Plex Sans', sans-serif;
+                        font-size: 1vw;
+    
+                    }
+                }
+                .img{
+                    position: relative;
+                    background-color: rgb(255, 255, 255);
+                    width: 50%;
+                    height: 33vw;
+                    margin-top: 5vw;
+                    
+                }
+    
+                .work-attribute{
+                    position: absolute;
+                    bottom: 3vw;
+                    left: 3vw;
+                    font-family: 'IBM Plex Sans', sans-serif;
+                    font-size: 0.9vw;
+                    display: flex;
+                    color: white;
+                    text-transform : capitalize;
+                    
+                    p{
+                        border: 1px solid white;
+                        padding: 0.5vw 0.6vw;
+                        border-radius: 20px;
+                        margin-bottom: 0;
+                        
+                    }
+                }
+            }
+
+            
+        }
+    }
+}

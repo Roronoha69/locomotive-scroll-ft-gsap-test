@@ -1,20 +1,11 @@
 import "locomotive-scroll/dist/locomotive-scroll.css";
-
 import { AnimatePresence } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
-import { ThemeProvider } from "styled-components";
-
-import Loader from "./components/Loader";
 import ScrollTriggerProxy from "./components/ScrollTriggerProxy";
-import About from "./sections/About";
-import Footer from "./sections/Footer";
-import Home from "./sections/Home";
-import Marquee from "./sections/Marquee";
-import NewArrival from "./sections/NewArrival";
-import Shop from "./sections/Shop";
-import GlobalStyles from "./styles/GlobalStyles";
-import { dark } from "./styles/Themes";
+import NewArrival from "./sections/Home/NewArrival";
+import './App.scss'
+import Galery from './sections/Galery/Galery'
 
 function App() {
   // useLocoScroll();
@@ -24,16 +15,18 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoaded(true);
-    }, 3000);
+    }, 500);
   }, []);
 
   return (
     <>
-      <GlobalStyles />
-      <ThemeProvider theme={dark}>
+ 
         <LocomotiveScrollProvider
           options={{
             smooth: true,
+
+            multiplier: 0.7,
+
             // ... all available Locomotive Scroll instance options
             smartphone: {
               smooth: true,
@@ -51,22 +44,23 @@ function App() {
           }
           containerRef={containerRef}
         >
-          <AnimatePresence>{Loaded ? null : <Loader />}</AnimatePresence>
-          <main className="App" data-scroll-container ref={containerRef}>
+          {/* <AnimatePresence>{Loaded ? null : <Loader />}</AnimatePresence> */}
+          <main className="App old" data-scroll-container ref={containerRef}>
             <ScrollTriggerProxy />
-            <AnimatePresence>
-              {Loaded ? null : <Loader />}
+              {/* {Loaded ? null : <Loader />} */}
 
-              <Home key="home" />
-              <About key="about" />
+              {/* <Home key="home" /> */}
+              {/* <About key="about" /> */}
+              <NewArrival key="new arrival" loaderOff={true} />
+              <Galery />
+{/*              
               <Shop key="Shop" />
               <Marquee key="marquee" />
-              <NewArrival key="new arrival" />
-              <Footer key="Footer" />
-            </AnimatePresence>
+              
+              <Footer key="Footer" /> */}
           </main>
         </LocomotiveScrollProvider>
-      </ThemeProvider>
+      
     </>
   );
 }
