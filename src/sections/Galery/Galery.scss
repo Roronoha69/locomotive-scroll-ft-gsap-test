@@ -4,117 +4,142 @@
     font-family: 'small-text';
     src: url('../../assets/fonts/IvyMode-Regular.ttf');
   }
-
-  
+  @font-face {
+    font-family: 'big-text'; /* Remplacez "Nom de la police" par le nom de la police que vous avez téléchargée */
+    src: url('../../assets/fonts/vintagemohaidemoversionregular-vmlbo.ttf'); /* Remplacez "nom-de-la-police.ttf" par le nom du fichier de police téléchargé */
+  }
 
 .Galery{
-    background-color: #ebeae1;
-    margin-top: 5rem;
-
+   
+    margin-top: 9rem;
+    
     font-family: 'small-text';
-    height: fit-content;
+    height: 223vw;
+    @media screen and (max-width: 750px){
+        height: 675vw;
+    }
 
     .head-work{
+        
         display: flex;
         justify-content: center;
         padding-bottom: 3vw;
-        font-size: 1.7vw;
+        font-size: 2.4vw;
+        @media screen and (max-width: 750px) {
+            padding-bottom: 6vw; 
+            font-size: 2.5vw;
+        }
     }
     .wrap-all-img{
        position: absolute;
        left: 3%;
        right: 3%;
-        justify-content: center;
+       @media screen and (max-width: 750px) {
+        left: 3.3%;
+        right: 3.3%;
+       }
         
         
         .work{
-            width: 100%;
-            height: 22vw;
-            background-color: black;
-            .work-text{
-                position: relative;
-                display: flex;
-                justify-content: center; 
-                flex-direction: column;
-                place-items: center;
-                font-size: 1.5vw;
+          
 
-                h1{
-                    margin-top: 5vw;
-                    color: #ebeae1;
-                    margin-bottom: 5px;
-                    
+           
+            .img-effet-container{
+                width: 30%;
+                // height: 33vw;
+                @media screen and (max-width: 750px) {
+                    width: 50%;
                 }
-                span{
-                    color: red;
-                    font-family: 'IBM Plex Sans', sans-serif;
-                    font-size: 1vw;
-
-                }
+                overflow-y: hidden;
+                
+                 img{
+                object-fit: cover;
             }
+
             .img{
                 position: relative;
                 background-color: rgb(255, 255, 255);
-                width: 25%;
-                height: 33vw;
-                margin-top: 5vw;
-                
-            }
-
-            .work-attribute{
-                position: absolute;
-                bottom: 3vw;
-                left: 3vw;
-                font-family: 'IBM Plex Sans', sans-serif;
-                font-size: 0.9vw;
-                display: flex;
-                color: white;
-                text-transform : capitalize;
-                
-                p{
-                    border: 1px solid white;
-                    padding: 0.5vw 0.6vw;
-                    border-radius: 20px;
-                    margin-bottom: 0;
-                    
+                width: 100%;            
                 }
             }
-            
+           
+                     
         }
 
          .work{
             width: 100%;
+            background-image: url("../../assets/img/pexels-karolina-grabowska-4202328-min.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             height: 66vw;
-            background-color: black;
+            @media screen and (max-width: 750px) {
+                height: 125vw; 
+            }
+            @media screen and (max-width: 400px) {
+                height: 130vw; 
+            }
+            background-color: black;          
             position: relative;
             .work-text{
+
+
                 position: relative;
                 display: flex;
                 justify-content: center; 
                 flex-direction: column;
                 place-items: center;
                 font-size: 1.5vw;
+                @media screen and (max-width: 750px) {
+                    font-size: 2vw;
+                }
 
                 h1{
                     margin-top: 5vw;
                     color: #ebeae1;
+                    margin-bottom: 5px;  
+                    margin-top: 5vw;
+                    @media screen and (max-width: 750px) {
+                        margin-top: 7vw;
+                    }
+                    color: #ebeae1;
                     margin-bottom: 5px;
+
+                    @media screen and (max-width: 750px) {
+                        font-size: 6vw;
+                    }
+                 
                     
                 }
                 span{
                     color: red;
                     font-family: 'IBM Plex Sans', sans-serif;
-                    font-size: 1vw;
-
+                    font-size: 1.3vw;
+                    font-weight: 500;
+                    @media screen and (max-width: 750px) {
+                        font-size: 4vw;
+                    }
+                    
                 }
             }
+            
             .img{
                 position: relative;
                 background-color: rgb(255, 255, 255);
                 width: 25%;
                 height: 33vw;
                 margin-top: 5vw;
-                
+                @media screen and (max-width: 750px) {
+                    margin-top: 12vw;
+                }                              
+            }
+
+            img.img{
+                height: 40vw;
+                @media screen and (max-width: 750px) {
+                    width: 50%;
+                    height: 67vw;
+                }
             }
 
             .work-attribute{
@@ -126,59 +151,143 @@
                 display: flex;
                 color: white;
                 text-transform : capitalize;
-                
+                @media screen and (max-width: 750px) {
+                font-size: 1.7vw;
+                }
+                @media screen and (max-width: 400px) {
+                    font-size: 2vw;
+                    }              
                 p{
-                    border: 1px solid white;
+                    border: 1.5px solid white;
+                    font-weight: 600;
                     padding: 0.5vw 0.6vw;
                     border-radius: 20px;
                     margin-bottom: 0;
-                    
+                    @media screen and (max-width: 750px) {
+                       padding: 0.8vw 0.9vw;
+                    }
                 }
-            }
-            
+            }           
         }
 
+        
         .work-row{
             width: 100%;
             height: 66vw;
+           
             display: flex;
-            justify-content: row;
-            justify-content: space-between;
+            flex-direction: row;
+            @media screen and (max-width: 750px) {
+                flex-direction: column;
+                height: 264vw;
+                margin-top: 0;
+                
+            }
+           
+
+            @media screen and (min-width: 750px) {
+                justify-content: space-between;
+            }
             margin-bottom: 2vw;
+            @media screen and (max-width: 750px) {
+                margin-bottom: -7.2vw;
+                justify-content: flex-start;
+                
+            }
             .work-section{
+                
                 height: 100%;
                 width: 49%;
+                @media screen and (max-width: 750px) {
+                height: 125vw; 
+                width: 100%;
+                
+            }
                 margin-top: 2vw;
+                @media screen and (max-width: 750px) {
+                    margin-top: 3.3vw;
+                }
                 background-color: black;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                
                 position: relative;
+
+
                 .work-text{
+
+
                     position: relative;
                     display: flex;
                     justify-content: center; 
                     flex-direction: column;
                     place-items: center;
                     font-size: 1.5vw;
+                    @media screen and (max-width: 750px) {
+                        font-size: 2vw;
+                    }
     
                     h1{
+                        
+                        color: #ebeae1;
+                        margin-bottom: 5px;  
                         margin-top: 5vw;
+                        @media screen and (max-width: 750px) {
+                            margin-top: 7vw;
+                        }
                         color: #ebeae1;
                         margin-bottom: 5px;
+    
+                        @media screen and (max-width: 750px) {
+                            font-size: 6vw;
+                        }
+                     
                         
                     }
                     span{
                         color: red;
                         font-family: 'IBM Plex Sans', sans-serif;
-                        font-size: 1vw;
-    
+                        font-size: 1.3vw;
+                        font-weight: 500;
+                        @media screen and (max-width: 750px) {
+                            font-size: 4vw;
+                        }
+                        
                     }
+                }
+
+                .img-effet-container2{
+                    width: 50%;
+                    height: 40vw; 
+                    overflow: hidden;
+                    
+                    @media screen and (max-width: 750px) {
+                        overflow: visible;
+                        height: 67vw;
+                    }
+
+                 img{
+                    object-fit: cover;
+                    
                 }
                 .img{
                     position: relative;
                     background-color: rgb(255, 255, 255);
-                    width: 50%;
-                    height: 33vw;
+                    width: 100%;
                     margin-top: 5vw;
+                    @media screen and (max-width: 750px) {
+                        margin-top: 12vw;
+                    }
                     
+                    
+                    height: 90%;
+
+                    
+                    
+                }
+
+                
                 }
     
                 .work-attribute{
@@ -190,18 +299,48 @@
                     display: flex;
                     color: white;
                     text-transform : capitalize;
-                    
+                    @media screen and (max-width: 750px) {
+                    font-size: 1.7vw;
+                    }
+                    @media screen and (max-width: 400px) {
+                        font-size: 2vw;
+                        }              
                     p{
-                        border: 1px solid white;
+                        border: 1.5px solid white;
+                        font-weight: 600;
                         padding: 0.5vw 0.6vw;
                         border-radius: 20px;
                         margin-bottom: 0;
-                        
+                        @media screen and (max-width: 750px) {
+                           padding: 0.8vw 0.9vw;
+                        }
                     }
-                }
+                }   
+            }
+
+            .work-section.st{
+                background-image: url("../../assets/img/back1.jpg");
+            }
+            .work-section.nd{
+                background-image: url("../../assets/img/night2.jpg");
+            }
+            .work-section.rd{
+                background-image: url("../../assets/img/fond.jpg");
+            }
+            .work-section.th{
+                background-image: url("../../assets/img/jour3.png");
             }
 
             
         }
+
+        
+        
     }
+    
+
 }
+
+
+
+

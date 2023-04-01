@@ -6,6 +6,9 @@ import survet from './img/img5.jpg'
 import car from './img/img6.jpg'
 import pose2 from './img/img7.jpg'
 import golf from './img/img8.jpg'
+import faces from './img/img11.jpg'
+import img14 from './img/img14.jpg'
+import img15 from './img/img15.jpg'
 
 
 export default {
@@ -16,5 +19,8 @@ export default {
     survet,
     car,
     pose2,
-    golf
+    golf,
+    faces,
+    img14,
+    img15
 };

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Indie+Flower&family=Lato:wght@300&display=swap');
+
+
+.Loader{
+    overflow: hidden;
+    
+    background-color: #ebeae1;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    
+    
+    overflow: hidden;
+    // background-image: url("https://www.cinecasero.uy/img/old.webp");
+    // opacity: .05;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-position: center center;
+    // z-index: 150;
+    // pointer-events: none;
+
+
+    .text{
+        position: absolute;
+        font-size: 5rem;
+        letter-spacing: 4px;
+        z-index: 1000;
+        mix-blend-mode: normal;
+
+        
+  @media screen and (max-width: 1000px) {
+    font-size: 8vw;    
+  }
+        
+    }
+
+    
+    .box{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background: #ebeae1;
+        z-index: 100000;
+        display: flex;
+        justify-content: center;
+        place-items: center;
+        font-size: 0.7rem;
+        font-family: 'Lato', sans-serif;
+        color: black;
+        mix-blend-mode: difference;
+        span{
+            font-weight: bolder;
+            
+        }
+        
+    }
+
+    .invisible{
+        display: none;
+        
+    }
+
+    
+
+  
+}
+
+
+
+

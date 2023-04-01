@@ -115,7 +115,7 @@ const Footer = () => {
 
   const handleScroll = (id) => {
     let elem = document.querySelector(id);
-    // console.log(elem);
+
     scroll.scrollTo(elem, {
       offset: "-100",
       duration: "2000",
