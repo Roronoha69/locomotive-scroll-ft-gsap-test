@@ -12,7 +12,6 @@
 .Galery{
    
     margin-top: 9rem;
-    
     font-family: 'small-text';
     height: 223vw;
     @media screen and (max-width: 750px){
@@ -23,8 +22,9 @@
         
         display: flex;
         justify-content: center;
-        padding-bottom: 3vw;
-        font-size: 2.4vw;
+        padding-bottom: 2vw;
+        font-size: 1.4vw;
+        letter-spacing: 3px;
         @media screen and (max-width: 750px) {
             padding-bottom: 6vw; 
             font-size: 2.5vw;
@@ -89,7 +89,7 @@
                 justify-content: center; 
                 flex-direction: column;
                 place-items: center;
-                font-size: 1.5vw;
+                font-size: 1.7vw;
                 @media screen and (max-width: 750px) {
                     font-size: 2vw;
                 }
@@ -114,8 +114,8 @@
                 span{
                     color: red;
                     font-family: 'IBM Plex Sans', sans-serif;
-                    font-size: 1.3vw;
-                    font-weight: 500;
+                    font-size: 1.7vw;
+                    font-weight: 600;
                     @media screen and (max-width: 750px) {
                         font-size: 4vw;
                     }
@@ -223,7 +223,7 @@
                     justify-content: center; 
                     flex-direction: column;
                     place-items: center;
-                    font-size: 1.5vw;
+                    font-size: 1.7vw;
                     @media screen and (max-width: 750px) {
                         font-size: 2vw;
                     }
@@ -248,8 +248,8 @@
                     span{
                         color: red;
                         font-family: 'IBM Plex Sans', sans-serif;
-                        font-size: 1.3vw;
-                        font-weight: 500;
+                        font-size: 1.7vw;
+                        font-weight: 600;
                         @media screen and (max-width: 750px) {
                             font-size: 4vw;
                         }

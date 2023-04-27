@@ -85,7 +85,7 @@ const Header = () => {
           <img onClick={()=> togglePlaying()} src={off} alt="" />
          }
                               
-          <p className="underline">thais.lutton@gmail.com</p>
+          <p className="underline">thaislutton@live.fr</p>
         </div>
 
         <div className="infos-tgl">
@@ -105,7 +105,8 @@ const Header = () => {
       initial={{y:-50, opacity:0}}
       animate={{y:0, opacity:1}}
       transition={{delay:2.4, duration: 0.8, ease:"easeOut"}}
-      >I am a <b>french model based in Paris,</b> bringing fashion to life through my <b> unique style</b> and dedication to <b>excellence</b>. Let's create magic together.</motion.p>
+      >
+        I am a <b>french model based in Paris,</b> bringing fashion to life through my <b> unique style</b> and dedication to <b>excellence</b>. Let's create magic together.</motion.p>
 
     </div>
     </div>
@@ -113,7 +114,7 @@ const Header = () => {
   );
 };
 
-
+//
 
 
 

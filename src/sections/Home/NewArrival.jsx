@@ -139,7 +139,7 @@ const NewArrival = (params) => {
                     <motion.img 
                     preload="auto"  
                     // animation scale et opacity et delay en fonction de setTimeout()
-                    src={images.journal}
+                    src={images.img18}
                     className={`${imgLoad? "":"invisible-img"}`}
                     animate={{scale:imgLoad? 1:0.7, opacity:imgLoad?1:0.7}}
                     transition={{duration:0.4, ease:"easeInOut"}}

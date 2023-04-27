@@ -9,6 +9,9 @@ import golf from './img/img8.jpg'
 import faces from './img/img11.jpg'
 import img14 from './img/img14.jpg'
 import img15 from './img/img15.jpg'
+import img17 from './img/img17.png'
+import img18 from './img/img18.png'
+
 
 
 export default {
@@ -22,5 +25,7 @@ export default {
     golf,
     faces,
     img14,
-    img15
+    img15,
+    img17,
+    img18
 };

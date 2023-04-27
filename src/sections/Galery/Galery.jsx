@@ -45,7 +45,7 @@ function Galery() {
         <div className="Galery">
             
             <div className="head-work">
-            <h1 className="big-text"> (Selected Work)</h1>
+            <h1 className="big"> Selected Work</h1>
            
             </div>
 
@@ -57,8 +57,8 @@ function Galery() {
                 >
                     
                     <div className="work-text">
-                        <h1>GIVENCHY</h1> 
-                        <span>2022</span>
+                        <h1>Paris VIIe </h1> 
+                        <span>2023</span>
                         <div className="img-effet-container">
                         <motion.img 
                          preload="auto"  animate={{scale: overed? 1.02 : 1}} className="img" src={image1} alt=""   />
@@ -78,8 +78,8 @@ function Galery() {
         onMouseLeave={() => isOvered1(false)}
                 >
                         <div className="work-text">
-                        <h1>Richard Leclert</h1> 
-                        <span>2022</span>
+                        <h1>London</h1> 
+                        <span>2023</span>
                          <div className="img-effet-container2">
                         <motion.img  preload="auto"   animate={{scale: overed1? 1.02 : 1}}                      
                         className="img" src={images.survet} alt="" />
@@ -96,7 +96,7 @@ function Galery() {
         onMouseLeave={() => isOvered2(false)}
                         >
                     <div className="work-text">
-                        <h1>Govereal</h1> 
+                        <h1>Antibes</h1> 
                         <span>2022</span>
                         <div className="img-effet-container2">
                         <motion.img  preload="auto"   animate={{scale: overed2? 1.02 : 1}} className="img" src={images.car} alt="" />
@@ -117,8 +117,8 @@ function Galery() {
                         onMouseLeave={() => isOvered3(false)}
                         >
                         <div className="work-text">
-                        <h1>Sylvie Roumaine</h1> 
-                        <span>2022</span>
+                        <h1>Lille</h1> 
+                        <span>2023</span>
                         <div className="img-effet-container2">
 
                         <motion.img  preload="auto"   animate={{scale: overed3? 1.02 : 1}} className="img" src={image3} alt="" />
@@ -135,7 +135,7 @@ function Galery() {
                         onMouseLeave={() => isOvered4(false)}
                         >
                         <div className="work-text">
-                        <h1>Monte-Carlo Golf</h1> 
+                        <h1>Monte-Carlo</h1> 
                         <span>2022</span>
                         <div className="img-effet-container2">
 

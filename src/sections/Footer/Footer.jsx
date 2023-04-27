@@ -5,7 +5,7 @@ function Footer() {
 
 return(
     <div className="footer">
-    <a href='mailto:thais.lutton@gmail.com'>
+    <a href='mailto:thaislutton@live.fr'>
         <motion.div 
          whileHover={{ scale: 1.02 }}
          whileTap={{ scale: 0.98 }}
