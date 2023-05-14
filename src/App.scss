@@ -59,3 +59,9 @@ body{
   .big{
     font-family: 'big-text';
   }
+
+  .responsive-eraser{
+    @media screen and (max-width: 1000px) {
+       display: none;
+      }
+}

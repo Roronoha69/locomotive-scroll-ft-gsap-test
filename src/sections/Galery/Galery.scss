@@ -10,12 +10,21 @@
   }
 
 .Galery{
+    
+    @media screen and (max-width: 1000px) {
+        margin-top: 5rem;
+
+
+      }
+
    
     margin-top: 9rem;
     font-family: 'small-text';
-    height: 223vw;
+    height: 155vw;
+    //223
     @media screen and (max-width: 750px){
-        height: 675vw;
+        height: 540vw;
+        //675
     }
 
     .head-work{
@@ -68,7 +77,7 @@
 
          .work{
             width: 100%;
-            background-image: url("../../assets/img/pexels-karolina-grabowska-4202328-min.jpg");
+            background-image: url("../../assets/img/caro-caro.webp");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -339,6 +348,44 @@
     }
     
 
+}
+
+
+/* Définition des styles de l'objet */
+// .Galery {
+//     opacity: 0; /* Opacité initiale à 0 */
+//     animation: apparition 1s ease-in-out 2s forwards; /* Animation de l'opacité */
+//   }
+  
+//   /* Définition de l'animation d'opacité */
+//   @keyframes apparition {
+//     0% {
+//       opacity: 0; /* Opacité à 0 au début de l'animation */
+//     }
+//     25% {
+//         opacity: 0.25; /* Opacité à 0 au début de l'animation */
+//       }
+//       50% {
+//         opacity: 0.5; /* Opacité à 0 au début de l'animation */
+//       }
+//       75% {
+//         opacity: 0.75; /* Opacité à 0 au début de l'animation */
+//       }
+
+//     100% {
+//       opacity: 1; /* Opacité à 1 à la fin de l'animation */
+//     }
+//   }
+  
+
+
+
+
+
+.responsive-eraser{
+    @media screen and (max-width: 1000px) {
+       display: none;
+      }
 }
 
 

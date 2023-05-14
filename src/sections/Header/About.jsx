@@ -89,7 +89,11 @@ const Header = () => {
         </div>
 
         <div className="infos-tgl">
-            <img src={menu} alt="" />
+            {/* <img src={menu} alt="" /> 
+                        <p>Contact 📨</p>
+
+            */}
+            <p>thaislutton@live.fr</p>
         </div>
     </motion.div>
 

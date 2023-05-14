@@ -67,6 +67,12 @@ font-size: 1vw;
     .infos-tgl{
         display: flex;
         flex-direction: row;
+        p{
+            padding-top: 3vw;
+            font-size:4vw;
+            text-decoration: underline;
+
+        }
         img{
             width: 14vw;
             height: 14vw;

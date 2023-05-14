@@ -4,12 +4,20 @@
     position: relative;
     font-size: 1.2vw;
     text-transform: uppercase;
+    @media screen and (max-width: 1000px) {
+        height: 45vw;
 
+    }
 
 a{
     text-decoration: none;
     color: black;
    .text{
+    @media screen and (max-width: 1000px) {
+        font-size: 8vw;
+        margin-top: 25vw;
+
+    }
     font-size: 5vw;
     display: flex;
     place-content: center;
@@ -20,22 +28,19 @@ a{
     
 
 .no-margin-t{
-    margin-top: 0
-    
-    ;}
+    margin-top: 0;
+}
 
     .no-margin-b{
-        margin-bottom: -5px
-        
-        ;}
+        margin-bottom: -5px;
+    }
        
-        .middle{
+        .minou{
             position: absolute;
             bottom: 3vw;
-            left: 50%;
+            left: 48%;
             transform: translate(-50%, -50%);
           
-            
             a {
                 border: 1px solid black;
                 border-radius: 10vw;
@@ -55,7 +60,7 @@ a{
                 color: rgb(255, 255, 255);
                 background-color: rgb(0, 0, 0); 
                 font-size: 1.2vw;
-              }
+              }           
         }
 
         .left{
@@ -78,4 +83,53 @@ a{
             bottom: 2vw;
         }
     
+}
+
+
+.err{
+    @media screen and (max-width: 1000px) {
+        display:none;
+
+    }
+
+}
+
+.bottom2{
+    @media screen and (min-width: 1000px) {
+        display:none;
+    }
+    font-size:3.5vw;
+    display:flex;
+    justify-content: space-between;
+
+   .fuck-you{
+            position: absolute;
+            bottom: 4vw;
+            right: -3vw;
+            transform: translate(-50%, -50%);
+          
+            
+            a {
+                border: 1.5px solid black;
+                border-radius: 10vw;
+                padding: 0.3rem 0.6rem;
+                text-decoration: none;
+                font-weight: 600;
+                color: black;
+                font-size: 3.5vw;
+                background-color: transparent;
+                transition: all 0.3s ease;
+              }
+              
+              a:hover {
+                border: 0px solid rgb(255, 255, 255);
+                border-radius: 12vw;
+                padding: 0.4rem 1rem;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0); 
+                font-size: 1.2vw;
+              }
+
+   }
 }

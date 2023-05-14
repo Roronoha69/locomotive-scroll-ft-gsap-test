@@ -4,9 +4,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import React, {  useLayoutEffect, useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
-
 import images from "../../assets/image";
-
 import videoGolf from "../../assets/video/real-vid3.mp4"
 import face from "../../assets/img/face.jpg"
 

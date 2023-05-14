@@ -5,12 +5,24 @@
 
 
     .wrap-infos{
-        display: flex;
-        justify-content: center;
+        @media screen and (min-width: 1000px) {
+            display: flex;
+            justify-content: center;
+          }
+
+        @media screen and (max-width: 1000px) {
+            flex-direction: row;
+            min-height: 200vw;
+            padding-bottom: 10vw;
+          }
     }
 
     .left-infos{
         width: 45vw;
+        @media screen and (max-width: 1000px) {
+            width: 100vw;
+          }
+
 
         h1{
             font-size: 4vw;
@@ -32,11 +44,42 @@
         p.lst{
             border-bottom: 1.2px solid #ebeae1;
         }
+        @media screen and (max-width: 1000px) {
+            h1{
+                display:flex;
+                justify-content:center;
+                font-size: 12vw;
+                padding-top : 6vw;
+            }
+            p{
+                max-width:100%;
+                font-size: 5vw;
+                border-bottom: 1px solid #ebeae1;
+                border-top: 1px solid #ebeae1;
+                margin: 0 4vw;
+                padding: 4vw;
+                text-transform: capitalize;
+            }
+    
+            p.fst{
+                border-top: 2px solid #ebeae1;
+            }
+            p.lst{
+                border-bottom: 2px solid #ebeae1;
+            }
+
+          }
+          
         
     }
     .right-infos{
         width: 45vw;
         position: relative;
+        justify-content: center;
+        @media screen and (max-width: 1000px) {
+            width: 100vw;
+          }
+
         img{
             width: 50%;
             border: solid 6px #ebeae1;
@@ -58,6 +101,35 @@
             top: 5%;
             left: 10%;
         }
+        
+        @media screen and (max-width: 1000px) {
+            
+            img{
+                margin-top:10vw;
+                width: 45%;
+                border: solid 4px #ebeae1;
+                position: absolute;
+            }
+    
+            img.snd{
+                rotate: -3deg ;
+                z-index: 1000;
+                position: absolute;
+                top: 0%;
+
+                right: 5%;
+            }
+    
+            img.fst{
+                rotate: 6deg ;
+                z-index: 999;
+                position: absolute;
+                top: 0%;
+                bottom:0%;
+                left: 10%;
+            }          
+        }
+
 
     }
 }

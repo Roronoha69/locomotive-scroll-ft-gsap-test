@@ -16,7 +16,7 @@ function Infos() {
         <div className="infos-page small">
                 <div className="wrap-infos">
                     <div className="left-infos">
-                        <h1>Measurement</h1>
+                        <h1>Measurements</h1>
                         <p className="fst">height : 189cm / 6.2ft</p>
                         <p>weight : 73kg / 162 lbs</p>
                         <p>chest : 93cm</p>

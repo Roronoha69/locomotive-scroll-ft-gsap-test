@@ -71,7 +71,9 @@ function App() {
                style={{backgroundColor: "#ebeae1"}}
                >
                <Header key="head" />
-              <NewArrival key="new arrival" loaderOff={true} />
+               <div className="responsive-eraser">
+                <NewArrival key="new arrival" loaderOff={true} className='responsive-eraser' />
+               </div>
               <Galery key="galery"/> 
               <Infos key="infos" />
               <Footer key="footer"/> 

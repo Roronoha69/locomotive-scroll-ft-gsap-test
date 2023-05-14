@@ -45,13 +45,13 @@ function Galery() {
         <div className="Galery">
             
             <div className="head-work">
-            <h1 className="big"> Selected Work</h1>
+            <h1 className="big responsive-eraser"> Selected Work</h1>
            
             </div>
 
 
             <div className="wrap-all-img">
-                <div className="work"
+                {/* <div className="work"
                     onMouseEnter={() => isOvered(true)}
                     onMouseLeave={() => isOvered(false)}
                 >
@@ -68,15 +68,19 @@ function Galery() {
                         <p>COMMERCIAL</p>
                         <p>PHOTOSHOOT</p>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="work-row">
+                <motion.div 
+                initial={{ y: 200, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1.3, delay: 1.2 }}
+                className="work-row">
 
-                <div className="work-section nd"
+                         <div className="work-section nd"
                 
-                onMouseEnter={() => isOvered1(true)}
-        onMouseLeave={() => isOvered1(false)}
-                >
+                             onMouseEnter={() => isOvered1(true)}
+                                onMouseLeave={() => isOvered1(false)}
+                            >
                         <div className="work-text">
                         <h1>London</h1> 
                         <span>2023</span>
@@ -90,6 +94,8 @@ function Galery() {
                         <p>PHOTOSHOOT</p>
                     </div>
                         </div>
+
+
                         <div className="work-section st"
                         
                         onMouseEnter={() => isOvered2(true)}
@@ -106,9 +112,10 @@ function Galery() {
                         <p>COMMERCIAL</p>
                         <p>PHOTOSHOOT</p>
                     </div>
-                        </div>
-                       
-                </div>
+                        </div> 
+                </motion.div>
+
+
 
                 <div className="work-row">
                         <div className="work-section rd"
