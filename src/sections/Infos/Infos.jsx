@@ -6,8 +6,7 @@
 // Pointure 44
 
 import "./Infos.scss" 
-import img1 from "../../assets/img/img1.jpg"
-import img2 from "../../assets/img/img2.jpg"
+
 import images from "../../assets/image";
 
 
@@ -25,8 +24,8 @@ function Infos() {
                         <p className="lst">shoe size : 44FR</p>
                     </div>
                     <div className="right-infos">
-                        <img className="snd" src={images.img14} alt="" />
-                        <img className="fst" src={images.img15} alt="" />
+                        <img className="snd" src={images.img16} alt="" />
+                        <img className="fst" src={images.img17} alt="" />
                     </div>
                 </div>
         </div>

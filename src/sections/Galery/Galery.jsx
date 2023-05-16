@@ -3,9 +3,7 @@ import {motion} from "framer-motion"
 import './Galery.scss'
 import images from "../../assets/image";
 
-import image1 from "../../assets/img/Photo_site/1/1.jpg";
 
-import image3 from "../../assets/img/3.jpg";
 
 
 
@@ -86,7 +84,7 @@ function Galery() {
                         <span>2023</span>
                          <div className="img-effet-container2">
                         <motion.img  preload="auto"   animate={{scale: overed1? 1.02 : 1}}                      
-                        className="img" src={images.survet} alt="" />
+                        className="img" src={images.img8} alt="" />
                         </div>
                     </div>
                     <div className="work-attribute">
@@ -105,7 +103,7 @@ function Galery() {
                         <h1>Antibes</h1> 
                         <span>2022</span>
                         <div className="img-effet-container2">
-                        <motion.img  preload="auto"   animate={{scale: overed2? 1.02 : 1}} className="img" src={images.car} alt="" />
+                        <motion.img  preload="auto"   animate={{scale: overed2? 1.02 : 1}} className="img" src={images.img10} alt="" />
                         </div>
                     </div>
                     <div className="work-attribute">
@@ -128,7 +126,7 @@ function Galery() {
                         <span>2023</span>
                         <div className="img-effet-container2">
 
-                        <motion.img  preload="auto"   animate={{scale: overed3? 1.02 : 1}} className="img" src={image3} alt="" />
+                        <motion.img  preload="auto"   animate={{scale: overed3? 1.02 : 1}} className="img" src={images.img12} alt="" />
                         </div>
                     </div>
                     <div className="work-attribute">
@@ -148,7 +146,7 @@ function Galery() {
 
                         <motion.img 
                          preload="auto"  
-                        animate={{scale: overed4? 1.02 : 1}} className="img" src={images.golf} alt="" />
+                        animate={{scale: overed4? 1.02 : 1}} className="img" src={images.img14} alt="" />
                         </div>
                     </div>
                     <div className="work-attribute">

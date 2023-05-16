@@ -2,7 +2,6 @@ import React, {useRef, useState, useEffect, useLayoutEffect} from "react";
 import {motion} from 'framer-motion'
 import './Header.scss'
 import { Howl } from 'howler';
-import menu from "../../assets/img/menu.png"
 import logo from "../../assets/img/t.png"
 
 import musiqueRef from "../../assets/video/music.mp3"

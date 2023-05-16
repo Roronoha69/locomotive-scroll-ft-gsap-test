@@ -6,7 +6,6 @@ import React, {  useLayoutEffect, useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import images from "../../assets/image";
 import videoGolf from "../../assets/video/real-vid3.mp4"
-import face from "../../assets/img/face.jpg"
 
  
 
@@ -137,7 +136,7 @@ const NewArrival = (params) => {
                     <motion.img 
                     preload="auto"  
                     // animation scale et opacity et delay en fonction de setTimeout()
-                    src={images.img18}
+                    src={images.img1}
                     className={`${imgLoad? "":"invisible-img"}`}
                     animate={{scale:imgLoad? 1:0.7, opacity:imgLoad?1:0.7}}
                     transition={{duration:0.4, ease:"easeInOut"}}
@@ -153,7 +152,7 @@ const NewArrival = (params) => {
                     >
                 <motion.img 
                 preload="auto"  
-                    src={images.pic}
+                    src={images.img2}
                     className={`${imgLoad2? "":"invisible-img"}`}
                     
                     animate={{scale:imgLoad2? 1:0.7, opacity:imgLoad2?1:0.7}}
@@ -167,7 +166,7 @@ const NewArrival = (params) => {
                     transition={{delay: 0.7,duration:0.4, ease:"easeInOut"}}>
                     <motion.img 
                     preload="auto"  
-                    src={images.faces}
+                    src={images.img3}
                     className={`${imgLoad3? "":"invisible-img"}`}
                     
                     animate={{scale:imgLoad3? 1:0.7, opacity:imgLoad3?1:0.7}}
@@ -193,7 +192,7 @@ const NewArrival = (params) => {
                         muted
                         onClick={(e)=> handleClic(e)}
                         loop
-                        poster={face}
+                        poster={images.img4}
                         animate={{scale: imgLoad3 ? 1 : 0.7, opacity: imgLoad3 ? 1 : 0.7}}
                         transition={{duration: 1, ease: "easeInOut"}}
                       />
@@ -233,7 +232,7 @@ const NewArrival = (params) => {
                 transition={{delay: 0.6,duration:0.4, ease:"easeOut"}}>
                 <motion.img 
                 preload="auto"  
-                    src={images.survet}
+                    src={images.img5}
                     className={`${imgLoad3? "":"invisible-img"}`}
                     
                     animate={{scale:imgLoad3? 1:0.7, opacity:imgLoad3?1:0.7}}
@@ -244,7 +243,7 @@ const NewArrival = (params) => {
                     transition={{delay: 0.5,duration:0.4, ease:"easeInOut"}}>
                     <motion.img 
                     preload="auto"  
-                    src={images.pose}
+                    src={images.img6}
                     className={`${imgLoad2? "":"invisible-img"}`}
                     
                     animate={{scale:imgLoad2? 1:0.7, opacity:imgLoad2?1:0.7}}
@@ -258,7 +257,7 @@ const NewArrival = (params) => {
                     transition={{delay: 0.4,duration:0.4, ease:"easeInOut"}}>
                 <motion.img 
                 preload="auto"  
-                    src={images.golf}
+                    src={images.img7}
                     className={`${imgLoad? "":"invisible-img"}`}
                     
                     animate={{scale:imgLoad? 1:0.7, opacity:imgLoad?1:0.7}}
