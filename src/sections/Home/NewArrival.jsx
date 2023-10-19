@@ -136,7 +136,7 @@ const NewArrival = (params) => {
                     <motion.img 
                     preload="auto"  
                     // animation scale et opacity et delay en fonction de setTimeout()
-                    src={images.img1}
+                    src={images.img24}
                     className={`${imgLoad? "":"invisible-img"}`}
                     animate={{scale:imgLoad? 1:0.7, opacity:imgLoad?1:0.7}}
                     transition={{duration:0.4, ease:"easeInOut"}}
@@ -152,7 +152,7 @@ const NewArrival = (params) => {
                     >
                 <motion.img 
                 preload="auto"  
-                    src={images.img2}
+                    src={images.img23}
                     className={`${imgLoad2? "":"invisible-img"}`}
                     
                     animate={{scale:imgLoad2? 1:0.7, opacity:imgLoad2?1:0.7}}
@@ -166,7 +166,7 @@ const NewArrival = (params) => {
                     transition={{delay: 0.7,duration:0.4, ease:"easeInOut"}}>
                     <motion.img 
                     preload="auto"  
-                    src={images.img3}
+                    src={images.img21}
                     className={`${imgLoad3? "":"invisible-img"}`}
                     
                     animate={{scale:imgLoad3? 1:0.7, opacity:imgLoad3?1:0.7}}
@@ -232,7 +232,7 @@ const NewArrival = (params) => {
                 transition={{delay: 0.6,duration:0.4, ease:"easeOut"}}>
                 <motion.img 
                 preload="auto"  
-                    src={images.img5}
+                    src={images.img22}
                     className={`${imgLoad3? "":"invisible-img"}`}
                     
                     animate={{scale:imgLoad3? 1:0.7, opacity:imgLoad3?1:0.7}}
@@ -243,7 +243,7 @@ const NewArrival = (params) => {
                     transition={{delay: 0.5,duration:0.4, ease:"easeInOut"}}>
                     <motion.img 
                     preload="auto"  
-                    src={images.img6}
+                    src={images.img20}
                     className={`${imgLoad2? "":"invisible-img"}`}
                     
                     animate={{scale:imgLoad2? 1:0.7, opacity:imgLoad2?1:0.7}}
@@ -257,7 +257,7 @@ const NewArrival = (params) => {
                     transition={{delay: 0.4,duration:0.4, ease:"easeInOut"}}>
                 <motion.img 
                 preload="auto"  
-                    src={images.img7}
+                    src={images.img25}
                     className={`${imgLoad? "":"invisible-img"}`}
                     
                     animate={{scale:imgLoad? 1:0.7, opacity:imgLoad?1:0.7}}

@@ -1,20 +1,37 @@
-import img1 from './img/img1.JPG'
-import img2 from './img/img2.JPG'
-import img3 from './img/img3.JPG'
-import img4 from './img/img4.JPG'
-import img5 from './img/img5.JPG'
-import img6 from './img/img6.JPG'
-import img7 from './img/img7.JPG'
-import img8 from './img/img8.JPG'
+import img1 from './img/img1.jpg'
+import img2 from './img/img2.jpg'
+import img3 from './img/img3.jpg'
+import img4 from './img/img4.jpg'
+import img5 from './img/img5.jpg'
+import img6 from './img/img6.jpg'
+import img7 from './img/img7.jpg'
+import img8 from './img/img8.jpg'
 import img9 from './img/img9.JPG'
-import img10 from './img/img10.JPG'
+import img10 from './img/img10.jpg'
 import img11 from './img/img11.JPG'
-import img12 from './img/img12.JPG'
+import img12 from './img/img12.jpg'
 import img13 from './img/img13.JPG'
-import img14 from './img/img14.JPG'
+import img14 from './img/img14.jpg'
 import img15 from './img/img15.JPG'
-import img16 from './img/img16.JPG'
-import img17 from './img/img17.JPG'
+import img16 from './img/img16.jpg'
+import img17 from './img/img17.jpg'
+
+
+import img20 from './img/1.webp'
+import img21 from './img/2.webp'
+
+import img22 from './img/3.webp'
+
+import img23 from './img/4.jpg'
+
+import img24 from './img/5-compressed.webp'
+
+import img25 from './img/6-compressed.webp'
+import img26 from './img/7.webp'
+import img27 from './img/8.webp'
+
+
+
 
 
 
@@ -37,7 +54,17 @@ export default {
     img14,
     img15,
     img16,
-    img17
+    img17,
+
+    img20,
+    img21,
+    img22,
+    img23,
+    img24,
+    img25,
+    img26,
+    img27,
+
 
     
 };

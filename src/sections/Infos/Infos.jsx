@@ -24,8 +24,8 @@ function Infos() {
                         <p className="lst">shoe size : 44FR</p>
                     </div>
                     <div className="right-infos">
-                        <img className="snd" src={images.img16} alt="" />
-                        <img className="fst" src={images.img17} alt="" />
+                        <img className="snd" src={images.img26} alt="" />
+                        <img className="fst" src={images.img21} alt="" />
                     </div>
                 </div>
         </div>
