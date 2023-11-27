@@ -80,8 +80,8 @@ function Galery() {
                                 onMouseLeave={() => isOvered1(false)}
                             >
                         <div className="work-text">
-                        <h1>PARIS - Le Marais</h1> 
-                        <span>2023</span>
+                        <h1>PARIS</h1> 
+                        <span>2022</span>
                          <div className="img-effet-container2">
                         <motion.img  preload="auto"   animate={{scale: overed1? 1.02 : 1}}                      
                         className="img" src={images.img20} alt="" />
@@ -100,7 +100,7 @@ function Galery() {
         onMouseLeave={() => isOvered2(false)}
                         >
                     <div className="work-text">
-                        <h1>PFW SS24</h1> 
+                        <h1>PFW</h1> 
                         <span>2022</span>
                         <div className="img-effet-container2">
                         <motion.img  preload="auto"   animate={{scale: overed2? 1.02 : 1}} className="img" src={images.img27} alt="" />
