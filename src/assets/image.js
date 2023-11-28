@@ -20,7 +20,8 @@ import img17 from './img/img17.jpg'
 import img20 from './img/force-pas-avec-les-noms.webp'
 import img21 from './img/2.webp'
 
-import img22 from './img/3.webp'
+// rememt ton 3;img dans les images
+import img22 from './img/Creative-Landscapes-Finalists.webp'
 
 import img23 from './img/4.jpg'
 
