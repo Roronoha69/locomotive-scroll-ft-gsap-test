@@ -17,7 +17,7 @@ import img16 from './img/img16.jpg'
 import img17 from './img/img17.jpg'
 
 
-import img20 from './img/1.ThaÃ¯s-min.webp'
+import img20 from './img/force-pas-avec-les-noms.webp'
 import img21 from './img/2.webp'
 
 import img22 from './img/3.webp'
