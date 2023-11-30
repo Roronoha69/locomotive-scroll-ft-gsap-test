@@ -23,7 +23,7 @@ import img21 from './img/2.webp'
 // rememt ton 3;img dans les images
 import img22 from './img/Creative-Landscapes-Finalists.webp'
 
-import img23 from './img/4.jpg'
+import img23 from './img/Golf.webp'
 
 import img24 from './img/5-compressed.webp'
 
