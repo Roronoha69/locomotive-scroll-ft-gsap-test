@@ -151,7 +151,7 @@ function Galery() {
                     </div>
                     <div className="work-attribute">
                         <p>PARIS</p>
-                        <p>04/09.2023</p>
+                        <p>04.09.2023</p>
                     </div>
                         </div>
                 </div>
