@@ -88,8 +88,8 @@ function Galery() {
                         </div>
                     </div>
                     <div className="work-attribute">
-                        <p>COMMERCIAL</p>
-                        <p>PHOTOSHOOT</p>
+                        <p>Paris</p>
+                        <p>8/10/2023</p>
                     </div>
                         </div>
 
