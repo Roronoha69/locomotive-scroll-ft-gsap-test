@@ -109,7 +109,7 @@ const Header = () => {
       animate={{y:0, opacity:1}}
       transition={{delay:2.4, duration: 0.8, ease:"easeOut"}}
       >
-        Welcome to my book, It’s Thaïs. 
+        Welcome to my book, it’s Thaïs. 
             I am a <b>french model based in Paris.</b><b></b> <b></b>Let's create magic together.</motion.p>
 
     </div>
