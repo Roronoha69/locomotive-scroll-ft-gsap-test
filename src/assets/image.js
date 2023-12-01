@@ -27,7 +27,7 @@ import img23 from './img/Levis.jpg'
 
 import img24 from './img/5-compressed.webp'
 
-import img25 from './img/6-compressed.webp'
+import img25 from './img/CCV.JPG'
 import img26 from './img/7.webp'
 import img27 from './img/2.webp'
 
