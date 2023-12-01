@@ -110,7 +110,7 @@ const Header = () => {
       transition={{delay:2.4, duration: 0.8, ease:"easeOut"}}
       >
         Hello and welcome to my book, It’s Thaïs. 
-        I am a <b>french model based in Paris,</b><b></b> <b>excellence</b>. Let's create magic together.</motion.p>
+            I am a <b>french model based in Paris,</b><b></b> <b>excellence</b>. Let's create magic together.</motion.p>
 
     </div>
     </div>
