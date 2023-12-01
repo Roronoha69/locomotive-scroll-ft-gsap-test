@@ -101,7 +101,7 @@ function Galery() {
                         >
                     <div className="work-text">
                         <h1>Énergie Tropicale</h1> 
-                        <span>2022</span>
+                        <span></span>
                         <div className="img-effet-container2">
                         <motion.img  preload="auto"   animate={{scale: overed2? 1.02 : 1}} className="img" src={images.img27} alt="" />
                         </div>
