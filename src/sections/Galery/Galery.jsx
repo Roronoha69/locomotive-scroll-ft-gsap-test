@@ -80,7 +80,7 @@ function Galery() {
                                 onMouseLeave={() => isOvered1(false)}
                             >
                         <div className="work-text">
-                        <h1>PARIS</h1> 
+                        <h1>Nuances de Gris</h1> 
                         <span>2022</span>
                          <div className="img-effet-container2">
                         <motion.img  preload="auto"   animate={{scale: overed1? 1.02 : 1}}                      
@@ -100,7 +100,7 @@ function Galery() {
         onMouseLeave={() => isOvered2(false)}
                         >
                     <div className="work-text">
-                        <h1>PFW</h1> 
+                        <h1>Énergie Tropicale</h1> 
                         <span>2022</span>
                         <div className="img-effet-container2">
                         <motion.img  preload="auto"   animate={{scale: overed2? 1.02 : 1}} className="img" src={images.img27} alt="" />
@@ -122,7 +122,7 @@ function Galery() {
                         onMouseLeave={() => isOvered3(false)}
                         >
                         <div className="work-text">
-                        <h1>Show Charbon Savard</h1> 
+                        <h1>Finesse et Concentration</h1> 
                         <span>2023</span>
                         <div className="img-effet-container2">
 
