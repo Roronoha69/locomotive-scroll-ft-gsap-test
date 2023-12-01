@@ -88,8 +88,8 @@ function Galery() {
                         </div>
                     </div>
                     <div className="work-attribute">
-                        <p>Paris</p>
-                        <p>8/10/2023</p>
+                        <p>PARIS</p>
+                        <p>8.10.2023</p>
                     </div>
                         </div>
 
@@ -107,8 +107,8 @@ function Galery() {
                         </div>
                     </div>
                     <div className="work-attribute">
-                        <p>COMMERCIAL</p>
-                        <p>PHOTOSHOOT</p>
+                        <p>PARIS</p>
+                        <p>18.08.2023</p>
                     </div>
                         </div> 
                 </motion.div>
@@ -130,8 +130,8 @@ function Galery() {
                         </div>
                     </div>
                     <div className="work-attribute">
-                        <p>COMMERCIAL</p>
-                        <p>PHOTOSHOOT</p>
+                        <p>PARIS</p>
+                        <p>13.06.2023</p>
                     </div>
                         </div>
                         <div className="work-section th"
@@ -150,8 +150,8 @@ function Galery() {
                         </div>
                     </div>
                     <div className="work-attribute">
-                        <p>COMMERCIAL</p>
-                        <p>PHOTOSHOOT</p>
+                        <p>PARIS</p>
+                        <p>04/09.2023</p>
                     </div>
                         </div>
                 </div>
