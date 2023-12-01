@@ -21,7 +21,7 @@ import img20 from './img/force-pas-avec-les-noms.webp'
 import img21 from './img/2.webp'
 
 // rememt ton 3;img dans les images
-import img22 from './img/Creative-Landscapes-Finalists.webp'
+import img22 from './img/Golf.webp'
 
 import img23 from './img/Golf.webp'
 
