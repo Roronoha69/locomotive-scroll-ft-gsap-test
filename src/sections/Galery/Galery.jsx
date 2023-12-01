@@ -140,7 +140,7 @@ function Galery() {
                         onMouseLeave={() => isOvered4(false)}
                         >
                         <div className="work-text">
-                        <h1>SALOMON</h1> 
+                        <h1>Vintage Night</h1> 
                         <span></span>
                         <div className="img-effet-container2">
 
