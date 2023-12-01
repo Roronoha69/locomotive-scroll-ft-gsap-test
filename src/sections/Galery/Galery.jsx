@@ -81,7 +81,7 @@ function Galery() {
                             >
                         <div className="work-text">
                         <h1>Nuances de Gris</h1> 
-                        <span>2022</span>
+                        <span></span>
                          <div className="img-effet-container2">
                         <motion.img  preload="auto"   animate={{scale: overed1? 1.02 : 1}}                      
                         className="img" src={images.img20} alt="" />
@@ -123,7 +123,7 @@ function Galery() {
                         >
                         <div className="work-text">
                         <h1>Finesse et Concentration</h1> 
-                        <span>2023</span>
+                        <span></span>
                         <div className="img-effet-container2">
 
                         <motion.img  preload="auto"   animate={{scale: overed3? 1.02 : 1}} className="img" src={images.img22} alt="" />
@@ -141,7 +141,7 @@ function Galery() {
                         >
                         <div className="work-text">
                         <h1>SALOMON</h1> 
-                        <span>2023</span>
+                        <span></span>
                         <div className="img-effet-container2">
 
                         <motion.img 
