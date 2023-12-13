@@ -21,13 +21,13 @@ import img20 from './img/force-pas-avec-les-noms.webp'
 import img21 from './img/2.webp'
 
 // rememt ton 3;img dans les images
-import img22 from './img/Golf.webp'
+import img22 from './img/golf.png'
 
-import img23 from './img/Levis.jpg'
+import img23 from './img/billard.png'
 
-import img24 from './img/5-compressed.webp'
+import img24 from './img/space.png'
 
-import img25 from './img/Duo2.jpg'
+import img25 from './img/duo2.png'
 import img26 from './img/7.webp'
 import img27 from './img/2.webp'
 
